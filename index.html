@@ -87,8 +87,39 @@
                                 dolor do amet sint. Velit officia consequat duis enim velit
                                 mollit. Exercitation veniam consequat sunt nostrud amet</p>
 
-                            <button class="py-2 px-5  border-0 rounded headbtn"><a
-                                    class="text-decoration-none text-white" href="#">Purchase</a></button>
+                            <button type="button" class="btn headbtn text-white py-2 px-4" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop">
+                                Purchase
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
+                                data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="staticBackdropLabel"></h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+
+                                            <h3>Honda CBR 300R</h3>
+                                            <h3>Price : $1220</h3>
+                                            <p>If you Purchase right now you will get 30% discount.</p>
+
+
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Understood</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
 
 
@@ -534,21 +565,7 @@
     <footer class=" py-5">
 
         <div class="container">
-
-            <div class="row">
-
-                <div class="col-lg-8">
-
-                </div>
-
-                <div class="col-lg-4">
-
-                    <img src="./images/app1.png" alt="">
-
-                </div>
-
-            </div>
-
+            <h6 class="text-white text-center">&#169; 2020 bike. All rights reserve</h6>
         </div>
 
 
