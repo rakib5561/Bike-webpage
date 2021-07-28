@@ -20,3 +20,37 @@ body{
 
     color: #E0E0E0;
 }
+.line{
+
+    width: 59px;
+    height: 1.5px;
+    background-color: #E76F51;
+}
+
+.filterImg{
+
+    filter: grayscale(100%);
+}
+
+.readBtn{
+
+    color: #E76F51;
+    border: 2px solid #E76F51;
+}
+
+.starIcon span{
+
+    color: #E76F51;
+    
+}
+
+.clientsay span{
+
+    color: #E76F51;
+
+}
+
+.imgbr{
+
+    height: 180px;
+}
